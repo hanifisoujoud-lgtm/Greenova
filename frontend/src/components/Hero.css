@@ -1,0 +1,32 @@
+/* src/components/Hero.css */
+.hero-container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(27, 109, 52);
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero-button:hover {
+  background-color: #218838;
+}

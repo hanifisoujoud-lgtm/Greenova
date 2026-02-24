@@ -1,0 +1,48 @@
+/* ProductCard.css */
+.product-card {
+  background-color: #e6f4ea; /* vert clair Greenova */
+  border: 1px solid #00a859; /* vert Greenova */
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  color: #007a3d; /* vert foncé Greenova */
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.product-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.product-card button {
+  background-color: #00a859; /* vert Greenova */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.product-card button:hover {
+  background-color: #007a3d; /* vert foncé */
+}

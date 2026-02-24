@@ -1,0 +1,60 @@
+/* Variables palette Greenova */
+:root {
+  --greenova-primary: #28A745;
+  --greenova-dark: #1E7E34;
+  --greenova-light: #A8E6A3;
+  --greenova-soft: #DFF5E1;
+  --greenova-accent: #0F5132;
+}
+
+/* Navbar générale */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--greenova-primary);
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Logo */
+.navbar-logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Liens de navigation */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s, border-bottom 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+/* Hover sur les liens */
+.navbar-links li a:hover {
+  color: var(--greenova-light);
+  border-bottom: 2px solid var(--greenova-soft);
+}
+
+/* Responsive (petits écrans) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .navbar-links {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}
